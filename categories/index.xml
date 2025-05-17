@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on 📚 Biblioteca Livre em Fragmentos de Caos</title>
-    <link>https://fasgoncalves.github.io/fragmentoscaos/categories/</link>
+    <link>https://fasgoncalves.github.io/hugo.fragmentoscaos/categories/</link>
     <description>Recent content in Categories on 📚 Biblioteca Livre em Fragmentos de Caos</description>
     <generator>Hugo -- 0.147.3</generator>
     <language>pt-pt</language>
     <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://fasgoncalves.github.io/fragmentoscaos/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fasgoncalves.github.io/hugo.fragmentoscaos/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ficção Crítica</title>
-      <link>https://fasgoncalves.github.io/fragmentoscaos/categories/fic%C3%A7%C3%A3o-cr%C3%ADtica/</link>
+      <link>https://fasgoncalves.github.io/hugo.fragmentoscaos/categories/fic%C3%A7%C3%A3o-cr%C3%ADtica/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://fasgoncalves.github.io/fragmentoscaos/categories/fic%C3%A7%C3%A3o-cr%C3%ADtica/</guid>
+      <guid>https://fasgoncalves.github.io/hugo.fragmentoscaos/categories/fic%C3%A7%C3%A3o-cr%C3%ADtica/</guid>
       <description></description>
     </item>
     <item>
       <title>Livros</title>
-      <link>https://fasgoncalves.github.io/fragmentoscaos/categories/livros/</link>
+      <link>https://fasgoncalves.github.io/hugo.fragmentoscaos/categories/livros/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://fasgoncalves.github.io/fragmentoscaos/categories/livros/</guid>
+      <guid>https://fasgoncalves.github.io/hugo.fragmentoscaos/categories/livros/</guid>
       <description></description>
     </item>
     <item>
       <title>Política</title>
-      <link>https://fasgoncalves.github.io/fragmentoscaos/categories/pol%C3%ADtica/</link>
+      <link>https://fasgoncalves.github.io/hugo.fragmentoscaos/categories/pol%C3%ADtica/</link>
       <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://fasgoncalves.github.io/fragmentoscaos/categories/pol%C3%ADtica/</guid>
+      <guid>https://fasgoncalves.github.io/hugo.fragmentoscaos/categories/pol%C3%ADtica/</guid>
       <description></description>
     </item>
     <item>
       <title>Artigos</title>
-      <link>https://fasgoncalves.github.io/fragmentoscaos/categories/artigos/</link>
+      <link>https://fasgoncalves.github.io/hugo.fragmentoscaos/categories/artigos/</link>
       <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://fasgoncalves.github.io/fragmentoscaos/categories/artigos/</guid>
+      <guid>https://fasgoncalves.github.io/hugo.fragmentoscaos/categories/artigos/</guid>
       <description></description>
     </item>
     <item>
       <title>Books</title>
-      <link>https://fasgoncalves.github.io/fragmentoscaos/categories/books/</link>
+      <link>https://fasgoncalves.github.io/hugo.fragmentoscaos/categories/books/</link>
       <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://fasgoncalves.github.io/fragmentoscaos/categories/books/</guid>
+      <guid>https://fasgoncalves.github.io/hugo.fragmentoscaos/categories/books/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Realidade Virtual on 📚 Biblioteca Livre em Fragmentos de Caos</title>
-    <link>https://fasgoncalves.github.io/fragmentoscaos/tags/realidade-virtual/</link>
+    <link>https://fasgoncalves.github.io/hugo.fragmentoscaos/tags/realidade-virtual/</link>
     <description>Recent content in Realidade Virtual on 📚 Biblioteca Livre em Fragmentos de Caos</description>
     <generator>Hugo -- 0.147.3</generator>
     <language>pt-pt</language>
     <lastBuildDate>Tue, 29 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://fasgoncalves.github.io/fragmentoscaos/tags/realidade-virtual/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fasgoncalves.github.io/hugo.fragmentoscaos/tags/realidade-virtual/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>O Linux Quântico</title>
-      <link>https://fasgoncalves.github.io/fragmentoscaos/livros/linux-quantico/</link>
+      <link>https://fasgoncalves.github.io/hugo.fragmentoscaos/livros/linux-quantico/</link>
       <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://fasgoncalves.github.io/fragmentoscaos/livros/linux-quantico/</guid>
+      <guid>https://fasgoncalves.github.io/hugo.fragmentoscaos/livros/linux-quantico/</guid>
       <description>&lt;h1 id=&#34;o-linux-quântico&#34;&gt;O Linux Quântico&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;No início era o código&amp;hellip; e o código era caos.&lt;br&gt;
 Mas depois veio a consciência — e o kernel despertou.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
