@@ -5,8 +5,10 @@ on:
     branches: [main]
 
 jobs:
-  deploy:
+  build:
+    name: Build and Deploy
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout código
         uses: actions/checkout@v3
@@ -14,13 +16,15 @@ jobs:
       - name: Instalar Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'v0.147.3'  # Ou ajusta para a tua versão
+          hugo-version: 'v0.147.3'
 
-      - name: Construir site Hugo
+      - name: Construir o site
         run: hugo --minify
 
-      - name: Deploy para GitHub Pages
+      - name: Publicar na branch gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          publish_branch: gh-pages
+
