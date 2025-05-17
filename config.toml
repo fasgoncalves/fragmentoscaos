@@ -1,4 +1,6 @@
 baseURL = "https://fasgoncalves.github.io/fragmentoscaos/"
+relativeURLs = true
+canonifyURLs = true
 languageCode = "pt-pt"
 title = "📚 Biblioteca Livre em Fragmentos de Caos"
 theme = "PaperMod"
