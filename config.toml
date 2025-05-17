@@ -1,4 +1,4 @@
-baseURL = "http://ebooks.fragmentoscaos.eu/"
+baseURL = "https://fasgoncalves.github.io/fragmentoscaos/"
 languageCode = "pt-pt"
 title = "📚 Biblioteca Livre em Fragmentos de Caos"
 theme = "PaperMod"
