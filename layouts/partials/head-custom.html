@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="stylesheet" href="{{ "css/biblioteca.css" | relURL }}">
+<meta name="description" content="{{ .Params.description | default .Summary }}">
+<meta name="keywords" content="{{ delimit .Params.tags ", " }}">
+<meta name="author" content="Francisco Gonçalves">
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Params.description | default .Summary }}">
+<meta property="og:image" content="{{ .Params.cover.image | absURL }}">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Params.description | default .Summary }}">
+<meta name="twitter:image" content="{{ .Params.cover.image | absURL }}">

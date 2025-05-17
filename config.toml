@@ -1,0 +1,34 @@
+baseURL = "http://ebooks.fragmentoscaos.eu/"
+languageCode = "pt-pt"
+title = "📚 Biblioteca Livre em Fragmentos de Caos"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 8 
+
+[params]
+  author = "Francisco Gonçalves"
+  assetsURL = "http://ebooks.fragmentoscaos.eu/" 
+  showReadingTime = true
+  defaultTheme = "light"
+  homeInfoParams = { Title = "Bem-vindo à Biblioteca Livre", Content = "Aqui encontras os meus livros, ideias, ensaios e reflexões. Totalmente livres, sem censura, sem filtros." }
+
+[[menu.main]]
+identifier = "sobre"
+name = "Sobre"
+url = "/sobre/"
+weight = 99
+
+[[menu.main]]
+  identifier = "licenca"
+  name = "Licença"
+  url = "/licenca/"
+  weight = 99
+#[[menu.main]]
+#  name = "Livros"
+#  url = "/posts/"
+#  weight = 1
+enableRobotsTXT = true
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on 📚 Biblioteca Livre em Fragmentos de Caos</title>
+    <link>http://ebooks.fragmentoscaos.eu/categories/</link>
+    <description>Recent content in Categories on 📚 Biblioteca Livre em Fragmentos de Caos</description>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>pt-pt</language>
+    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://ebooks.fragmentoscaos.eu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ficção Crítica</title>
+      <link>http://ebooks.fragmentoscaos.eu/categories/fic%C3%A7%C3%A3o-cr%C3%ADtica/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://ebooks.fragmentoscaos.eu/categories/fic%C3%A7%C3%A3o-cr%C3%ADtica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Livros</title>
+      <link>http://ebooks.fragmentoscaos.eu/categories/livros/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://ebooks.fragmentoscaos.eu/categories/livros/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Política</title>
+      <link>http://ebooks.fragmentoscaos.eu/categories/pol%C3%ADtica/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://ebooks.fragmentoscaos.eu/categories/pol%C3%ADtica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artigos</title>
+      <link>http://ebooks.fragmentoscaos.eu/categories/artigos/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://ebooks.fragmentoscaos.eu/categories/artigos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Books</title>
+      <link>http://ebooks.fragmentoscaos.eu/categories/books/</link>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://ebooks.fragmentoscaos.eu/categories/books/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

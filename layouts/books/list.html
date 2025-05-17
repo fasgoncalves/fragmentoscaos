@@ -1,0 +1,33 @@
+{{ define "main" }}
+<main class="book-listing" style="max-width: 900px; margin: auto; padding: 2rem 1rem;">
+
+  <h1 style="font-family:'Playfair Display',serif; font-size:2.6rem; text-align:center; color:#3a2e1f; margin-bottom:2rem;">
+    Biblioteca Fragmentos do Caos
+  </h1>
+
+  {{ range .Pages.ByDate.Reverse }}
+    <article class="book-entry" style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-bottom: 2rem; border-bottom: 1px solid #ddd; padding-bottom: 2rem;">
+      {{ if .Params.cover }}
+        <div style="flex: 0 0 160px;">
+          <a href="{{ .RelPermalink }}">
+            <img src="{{ .Params.cover | relURL }}" alt="Capa de {{ .Title }}" style="width:100%; border-radius: 4px; box-shadow: 0 0 4px rgba(0,0,0,0.1);">
+          </a>
+        </div>
+      {{ end }}
+
+      <div style="flex: 1;">
+        <h2 style="margin-top:0;"><a href="{{ .RelPermalink }}" style="text-decoration:none; color:#2c2c2c;">{{ .Title }}</a></h2>
+        {{ with .Params.author }}
+          <p><strong>Autores:</strong> {{ delimit . ", " }}</p>
+        {{ end }}
+        {{ with .Params.description }}
+          <p style="margin: 0.5rem 0;">{{ . }}</p>
+        {{ end }}
+        <a class="button" href="{{ .RelPermalink }}" style="display:inline-block; background:#c0aa74; color:#fff; padding:0.4rem 0.8rem; text-decoration:none; border-radius:5px; font-weight:bold; margin-top:0.5rem;">Ler mais →</a>
+      </div>
+    </article>
+  {{ end }}
+
+</main>
+{{ end }}
+

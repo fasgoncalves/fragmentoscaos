@@ -1,0 +1,54 @@
+{{ define "main" }}
+<main class="book-gallery">
+<!-- Licença CC no topo -->
+  <div style="text-align: center; font-size: 0.85rem; background-color: #f3f3f3; padding: 8px 12px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #ddd;">
+    📖 Todos os livros desta Biblioteca estão sob
+    <a href="/licenca/" style="color: #3366cc; font-weight: bold;">
+      Licença Creative Commons BY-NC-SA 4.0
+    </a>
+  </div>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+   {{ $livros := where .Site.RegularPages "File.Dir" "in" (slice "livros/") }}
+    {{ range (.Paginate $livros).Pages }}
+      <div style="width: 150px; text-align: center;">
+        <a href="{{ .RelPermalink }}">
+          {{ with .Params.cover.image }}
+	    <img src="{{ . }}" alt="{{ $.Title }}" style="width: 150px; height: 220px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.3);">
+          {{ end }}
+          <div style="margin-top: 8px; font-size: 0.9em;">{{ .Title }}</div>
+        </a>
+      </div>
+    {{ end }}
+  </div>
+   
+  <div style="text-align: center; margin-top: 30px;">
+    {{ template "_internal/pagination.html" . }}
+  </div>
+  <div style="text-align: center; margin-top: 40px; font-family: Georgia, serif; font-size: 1.2rem; color: #333;">
+  Se a luz desta Biblioteca tocou o teu espírito,
+  se as palavras aqui plantadas floresceram em ti,
+  <br><br>
+  convido-te a apoiar este espaço livre —
+  <strong>oferece-me um café e ajuda a manter as estrelas acesas!</strong>
+</div>
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://www.buymeacoffee.com/fasgoncalves" target="_blank" style="
+    background-color: #ff813f;
+    color: white;
+    padding: 14px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;">
+    ☕ Apoia esta Biblioteca
+  </a>
+</div>
+<div style="text-align: center; margin-top: 40px;">
+  <a href="/entrevistas/entrevista-autores-republica-esquemas/" style="font-size: 1rem; text-decoration: underline; color: #3a2e1f; font-style: italic;">
+    📖 Ler entrevista com os autores de "A República dos Esquemas"
+  </a>
+</div>
+</main>
+{{ end }}
