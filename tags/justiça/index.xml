@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Justiça on 📚 Biblioteca Livre em Fragmentos de Caos</title>
-    <link>http://ebooks.fragmentoscaos.eu/tags/justi%C3%A7a/</link>
+    <link>https://fasgoncalves.github.io/fragmentoscaos/tags/justi%C3%A7a/</link>
     <description>Recent content in Justiça on 📚 Biblioteca Livre em Fragmentos de Caos</description>
     <generator>Hugo -- 0.147.3</generator>
     <language>pt-pt</language>
     <lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://ebooks.fragmentoscaos.eu/tags/justi%C3%A7a/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fasgoncalves.github.io/fragmentoscaos/tags/justi%C3%A7a/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Portugal – Renascer das Cinzas</title>
-      <link>http://ebooks.fragmentoscaos.eu/livros/portugal-renascer-das-cinzas/</link>
+      <link>https://fasgoncalves.github.io/fragmentoscaos/livros/portugal-renascer-das-cinzas/</link>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://ebooks.fragmentoscaos.eu/livros/portugal-renascer-das-cinzas/</guid>
+      <guid>https://fasgoncalves.github.io/fragmentoscaos/livros/portugal-renascer-das-cinzas/</guid>
       <description>Um manifesto lúcido, poético e acessível sobre a regeneração ética, social e política de Portugal, escrito com coragem e esperança.</description>
     </item>
   </channel>
