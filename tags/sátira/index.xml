@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sátira on 📚 Biblioteca Livre em Fragmentos de Caos</title>
+    <link>http://ebooks.fragmentoscaos.eu/tags/s%C3%A1tira/</link>
+    <description>Recent content in Sátira on 📚 Biblioteca Livre em Fragmentos de Caos</description>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>pt-pt</language>
+    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://ebooks.fragmentoscaos.eu/tags/s%C3%A1tira/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O Rei dos Abraços e das Ruínas</title>
+      <link>http://ebooks.fragmentoscaos.eu/livros/o-rei-dos-abracos/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://ebooks.fragmentoscaos.eu/livros/o-rei-dos-abracos/</guid>
+      <description>Resumo da sátira burlesca sobre Marcellus Empoladus I e o vazio teatral da política portuguesa.</description>
+    </item>
+  </channel>
+</rss>
